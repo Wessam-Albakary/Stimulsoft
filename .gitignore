@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+Integrating-the-Report-Viewer-into-an-Application/ClientApp/.angular/
+Integrating-the-Report-Viewer-into-an-Application/ClientApp/dist/
+Integrating-the-Report-Viewer-into-an-Application/ClientApp/yarn.lock
