@@ -37,7 +37,7 @@ namespace Integrating_the_Report_Viewer_into_an_Application.Controllers
         public IActionResult GetReport()
         {
             var report = StiReport.CreateNewReport();
-            var path = StiAngularHelper.MapPath(this, $"Reports/MasterDetail.mrt");
+            var path = StiAngularHelper.MapPath(this, $"Reports/TotalIncome.mrt");
             report.Load(path);
 
             return StiAngularViewer.GetReportResult(this, report);
